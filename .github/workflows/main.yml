@@ -1,0 +1,24 @@
+name: Merge upstream branches
+on:
+  push:
+  schedule:
+     # actually, ~5 minutes is the highest
+     # effective frequency you will get
+    - cron:  '0 1 * * *'
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Merge upstream
+        run: |
+          git config --global user.name 'WoKee'
+          git config --global user.email '791283694@qq.com'
+          git pull --unshallow 
+		      git remote add upstream https://github.com/sihan0502/TVBox.git
+          git fetch upstream
+          git checkout SH
+          git merge --no-edit upstream/ SH
+          git push origin  SH
+          git fetch upstream --tags
+          git push --tags
