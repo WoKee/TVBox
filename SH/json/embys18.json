@@ -1,33 +1,33 @@
 {
-    "servers": [
-    {
-            "server": "https://emby3.mcjoker.xyz:443",
-            "username": "gcx",
-            "password": "gcx920110",
-            "name": "?叔服公益服"
-        },
-        {
-            "server": "https://pornemby.com:443",
-            "username": "bilibili123",
-            "password": "15B018f",
-            "proxy": "http://127.0.0.1:10079/p/0/proxy/",
-            "name": "?Pornemby公益服"
-        },
-  
-        {
-            "server": "https://hk.xiaochengshiguduo.xyz:443",
-            "username": "gcx110120130",
-            "password": "gcx920110",
-            "proxy": "http://127.0.0.1:10079/p/0/proxy/",
-            "name": "?CIJI公益服"
-        },
-        {
-            "server": "https://cherrytv.one:443",
-            "username": "gcx",
-            "password": "88PMQfcg",
-            "proxy": "http://127.0.0.1:10079/p/0/proxy/",
-            "name": "?cherry公益服"
-        }
-        
-    ]
+    "servers":[{
+	"disable_filter": 0,
+	"name": "🔞Pornemby公益服",
+	"proxy": "",
+	"server": "ms_5e599d60a0064dd78a9adb53772e2e4d"
+}, {
+	"disable_filter": 0,
+	"name": "🔞ACA公益服",
+	"proxy": "",
+	"server": "ms_26d57f1c3ab54193b29d93ca03e43e91"
+}, {
+	"disable_filter": 0,
+	"name": "🔞CIJI公益服",
+	"proxy": "",
+	"server": "ms_02a3981ba6b745679dd7cd75e5919447"
+}, {
+	"disable_filter": 0,
+	"name": "🔞cherry公益服",
+	"proxy": "",
+	"server": "ms_5f6ff09be8b849c7ad8a19e81cb39550"
+}, {
+	"disable_filter": 0,
+	"name": "🔞叔服公益服",
+	"proxy": "",
+	"server": "ms_0388558ee37e4183bc3af604d64c8740"
+}, {
+	"disable_filter": 0,
+	"name": "🔞探花公益服",
+	"proxy": "",
+	"server": "ms_722bd3034a3c4fa7857e9e44fd199dbd"
+}]
 }
